@@ -1,0 +1,1476 @@
+ @media (max-width: 768px) {
+
+     /**** Documentation Page Css  ****/
+     .doc-container {
+         flex-direction: column;
+     }
+
+     .doc-sidebar {
+         width: 100%;
+         height: auto;
+         position: relative;
+     }
+ }
+
+ @media screen and (min-width: 992px) {
+     .mobile-only {
+         display: none !important;
+     }
+
+     .desk-only {
+         display: block !important;
+     }
+ }
+
+ @media screen and (min-width: 768px) {
+
+     /** FOOTER STYLE CSS START **/
+     .footer-acnav-list {
+         display: block !important;
+     }
+
+     .site-footer .footer-col .footer-widget .footer-acnav svg,
+     .site-footer .footer-col .footer-acnav svg {
+         display: none;
+     }
+ } 
+   
+ @media screen and (max-width: 1299px) {
+    .service-menus::before,
+    .service-menus::after {
+        display: none;
+    }
+      .service-menus {
+        gap: 30px;
+    }
+  }
+    
+ @media screen and (max-width: 1199px) {
+     :root {
+         --h1: normal 500 46px/1.3 var(--first-font);
+         --h2: normal 500 36px/1.3 var(--first-font);
+         --h3: normal 500 32px/1.3 var(--first-font);
+         --h4: normal 500 24px/1.3 var(--first-font);
+         --h5: normal 500 20px/1.3 var(--first-font);
+         --h6: normal 500 18px/1.3 var(--second-font);
+     }
+
+    .offset-left {
+      margin-left: 0;
+    }
+        
+     /* banner section  */
+
+     .site-header .menu-item-right {
+         gap: 20px;
+     }
+
+     /** FOOTER STYLE CSS START **/
+     .site-footer .footer-col:not(:first-child) {
+         padding-left: 20px;
+     }
+
+     .site-footer .footer-subscribe-col {
+         min-width: 300px;
+         flex: 0 0 300px;
+         -ms-flex: 0 0 300px;
+         -webkit-box-flex: 0;
+     }
+
+     .site-footer .footer-col:first-of-type {
+         min-width: 270px;
+         flex: 0 0 270px;
+         -ms-flex: 0 0 270px;
+         -webkit-box-flex: 0;
+     }
+
+     /* Log in page css  */ 
+    .log-in-page .image-section {
+        display: none;
+    } 
+
+     .room-suites-sec .swiper-slide-active {
+        width: auto !important;
+     } 
+
+    /*** Testimonials Section Css  ***/
+    .testimonial-card {
+        padding: 30px 25px;
+        border-radius: 90px;
+        -webkit-border-radius: 90px;
+        -moz-border-radius: 90px;
+        -ms-border-radius: 90px;
+        -o-border-radius: 90px; 
+    }
+    .testimonial-inner {
+        margin: 0px 15px;
+    } 
+    /*** Booking Policy Css  ***/
+    .booking-policy-box ,
+    .booking-box {
+        padding: 15px;
+    }
+
+    .booking-policy-box ul {
+        padding-left: 10px;
+    }
+
+    .room-description,
+    .room-section {
+        padding-bottom: 15px;
+    } 
+
+    .booking-box {
+        margin-top: 15px;
+    }
+
+     .room-suites-sec .roomSwiper {
+        padding: 0 15px 50px 15px;
+    }
+    .room-suites-sec .swiper-wrapper {
+        margin: 0 -10px;
+    }
+
+    .food-menu-sliders {
+        padding-top: 0px !important;
+    }
+    /**** Hanging Gallery Css  ****/
+    .hanging-gallery {
+        margin-top: 30px;
+        height: auto;
+        gap: 30px;
+    } 
+
+    .wire , .common-clip {
+        display: none;
+    }
+
+    .photo.large {
+        top: 0;
+    }
+    /**** ABOUT US PAGE ****/
+    .about-us-images {
+        max-width: 500px;
+        margin-bottom: 120px;
+    } 
+    .about-us-container {
+        margin-bottom: 40px;
+     }
+ 
+    /**** Contact Us Page CSS  ****/ 
+    .map-card {
+        padding-top: 55%;
+    }
+ }
+ 
+
+ @media screen and (max-width: 1024px) {
+    .room-suites-sec .swiper-slide-active { 
+        width: auto !important; 
+    }
+
+    /*** paymeny option css ***/
+    .payment-option {
+        padding: 15px;
+    }
+
+    /**** Facilities Page CSS  ****/
+    .facility-dtl {
+        margin: 0 40px;
+    }
+    
+    .facility-imgs .img-wrapper {
+        padding-top: 130%;
+    }
+ }
+
+ @media screen and (max-width: 991px) {
+     :root {
+         --h1: normal 500 36px/1.3 var(--first-font);
+         --h2: normal 500 32px/1.3 var(--first-font);
+         --h3: normal 500 28px/1.3 var(--first-font);
+         --h4: normal 500 22px/1.3 var(--first-font);
+         --h5: normal 500 18px/1.3 var(--first-font);
+         --common-text: normal 400 16px/1.3 var(--second-font);
+     }
+
+     .section-title {
+         margin: 0 0 16px;
+     }
+     
+
+     .pt {
+         padding-top: 30px;
+     }
+
+     .pb {
+         padding-bottom: 30px;
+     }
+
+     /* ========header======== */
+     .site-header .announcebar,
+     .site-header .navigationbar-row .menu-items-col {
+         display: none !important;
+     }
+
+     .site-header .menu-item-right {
+         gap: 10px;
+         justify-content: flex-end !important;
+     }
+
+     .site-header .navigationbar-row {
+         gap: 20px;
+     }
+
+     .site-header {
+         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+         -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+         -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+         -ms-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+         -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+     }
+
+     /** FOOTER STYLE CSS START **/
+     .site-footer .footer-col:first-of-type {
+         min-width: 200px;
+         flex: 0 0 200px;
+         -ms-flex: 0 0 200px;
+         -webkit-box-flex: 0;
+     }
+
+     .site-footer .footer-subscribe-col {
+         min-width: 250px;
+         flex: 0 0 250px;
+         -ms-flex: 0 0 250px;
+         -webkit-box-flex: 0;
+     }
+
+     .site-footer .footer-col img {
+        max-width: 135px; 
+    }
+     /**** Main Banner Section Css ****/ 
+     .banner-text {
+         max-width: 100%;
+         text-align: center;
+     }
+
+     .booking-form {
+         border-radius: 45px;
+         max-width: 100%;
+         padding: 20px;
+         margin: 0 auto 35px;
+         -webkit-border-radius: 45px;
+         -moz-border-radius: 45px;
+         -ms-border-radius: 45px;
+         -o-border-radius: 45px;
+     }
+
+     .booking-form .field {
+         padding: 12px;
+         border-radius: 12px;
+         -webkit-border-radius: 12px;
+         -moz-border-radius: 12px;
+         -ms-border-radius: 12px;
+         -o-border-radius: 12px;
+     }
+
+     .banner-btn-wrp {
+         position: absolute;
+         top: auto;
+         left: 50%;
+         bottom: 35px;
+         transform: translate(-50%);
+         -webkit-transform: translate(-50%);
+         -moz-transform: translate(-50%);
+         -ms-transform: translate(-50%);
+         -o-transform: translate(-50%);
+     }
+
+     .banner-overlay {
+         padding: 75px 15px;
+     }
+
+     .swiper .swiper-button-prev,
+     .swiper .swiper-button-next {
+         opacity: 1;
+         visibility: visible;
+         transform: translate3d(0, 0, 0);
+         -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+         -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+     }
+
+     /**** About Hotel Sec Css ****/
+     .about-hotel-img {
+         padding-top: 130%;
+     }
+
+     .about-hotel-img img {
+         border-radius: 20px;
+         -webkit-border-radius: 20px;
+         -moz-border-radius: 20px;
+         -ms-border-radius: 20px;
+         -o-border-radius: 20px;
+     } 
+
+    /* Hotel Services Section  */
+    .service-box {
+        padding: 15px;
+        text-align: center;
+    }
+    .service-png {
+        width: 38px;
+        height: 38px;
+        margin: 0 auto 15px;
+    }
+ 
+    /* Facilities Section */
+    .facility-info {
+        font-size: 14px;
+    }
+
+    .play-video span {
+        height: 70px;
+        width: 70px;
+    }
+    .video-content {
+        padding-top: 50%;
+    } 
+    /**** Travel Inside Section  ****/
+    .section-footer {
+        margin-top: 15px;
+    }
+    .rooms-dtl {
+        padding-top: 15px;
+    }
+    .rooms-dtl ,
+    .travel-inside-section .section-heading ,
+    .section-footer {
+           text-align: center;
+    }
+    .travel-inside-section .section-heading {
+        margin-bottom: 20px; 
+    }
+    .travel-inside-section .section-heading img {
+        margin: 0 auto 15px;
+    }
+    .travel-inside-section {
+        padding: 40px 0px;
+    } 
+    /*** paymeny option css ***/
+    .payment-option {
+        flex: inherit;
+        min-width: auto;
+    }
+    .payment-options {
+        margin-bottom: 15px; 
+    }
+    .payment-option span.text {
+        font-size: 14px;
+    }
+
+    /**** Booking Preview Css ****/ 
+    .booking-details {
+        margin-top: 50px;
+    }
+
+    /**** ABOUT US PAGE ****/
+    .about-us-container {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0;
+    }  
+
+    .counter-item {
+        width: 150px;
+        height: 150px;
+    }
+
+    .facilities-counter {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    /**** Facilities Page CSS  ****/
+    .facility-content {
+        margin-top: 0px;
+    }
+
+    .facilities-sec ,
+    .facilities-sec.row-reverse {
+        padding: 40px 15px 0px;
+    }
+    
+    .facility-heading { 
+        margin-bottom: 15px;
+    }
+
+    .facility-imgs {
+        gap: 15px;
+    }
+    
+    /**** Restaurant Page CSS  ****/
+    .about-images {
+        gap: 15px;
+        margin-bottom: 20px;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .about-restaurant-img.left, 
+    .about-restaurant-img.right { 
+        height: 210px;
+    }
+
+    .food-menu-grid {
+        gap: 15px
+    }
+
+    /*** Live concert sec  ***/
+    .live-concert-sec .concert-images h2 { 
+        right: -100px;
+    }
+
+     /**** Blog Page CSS *****/
+    .sidebar-card .img-wrapper {
+        padding-top: 20%;
+    }
+
+    .blog-dtl-sec {
+        grid-template-columns: 1fr;
+    }
+
+    /**** Contact Us Page CSS  ****/ 
+    .address-container {
+        flex-direction: column;
+    }
+
+    .address-section .address-dtl {
+        max-width: 80%; 
+    }
+ }
+
+ @media screen and (max-width: 767px) {
+     :root {
+         --h1: normal 500 32px/1.3 var(--first-font);
+         --h2: normal 500 28px/1.3 var(--first-font);
+         --h3: normal 500 24px/1.3 var(--first-font);
+         --h4: normal 500 20px/1.3 var(--first-font);
+     }
+
+     .btn {
+         font-size: 14px;
+     }
+
+     .section-title p {
+         margin-top: 12px;
+     }
+
+     .section-title {
+         text-align: center;
+     } 
+
+     .sub-hd {
+         text-align: center;
+         display: block;
+     }
+
+     ul.tabs {
+         justify-content: center;
+     }
+
+     ul.tabs li {
+         font-size: 14px;
+     }
+
+     /** FOOTER STYLE CSS START **/
+     .footer-row .footer-acnav-list {
+         display: none;
+         padding: 10px 0 0;
+     }
+
+     .site-footer .footer-col,
+     .site-footer .footer-col:first-of-type {
+         -webkit-box-flex: 0;
+         -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+
+    .site-footer .footer-col:first-of-type {
+        text-align: center;
+    }   
+
+     .footer-row {
+         padding: 25px 0;
+         flex-direction: column;
+     }
+
+     .site-footer .footer-col .is_open.footer-acnav>svg {
+         transform: rotate(180deg);
+         -webkit-transform: rotate(180deg);
+         -moz-transform: rotate(180deg);
+         -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+     }
+
+     .site-footer .footer-col .footer-widget .footer-acnav {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         align-items: center;
+         -webkit-box-pack: justify;
+         -ms-flex-pack: justify;
+         justify-content: space-between;
+         margin: 0;
+         font-size: 18px;
+     }
+
+     .site-footer .footer-col:not(:first-child) {
+         padding-left: 0px;
+     }
+
+     .site-footer .footer-col:not(:last-child) {
+         padding-bottom: 10px;
+     }
+
+     .site-footer .footer-col h2 span {
+         text-transform: capitalize;
+         font-size: 16px;
+     }
+
+     .site-footer .footer-col img { 
+        margin: 0 auto 15px;
+    }
+
+     .site-footer .footer-widget ul li:not(.e-mail) a {
+         font-size: 14px;
+     }
+
+     .site-footer .footer-widget ul.footer-acnav-list>li:not(:last-of-type) {
+         margin-bottom: 10px;
+     } 
+
+     .footer-subscribe-col .footer-logo {
+         margin: 0 auto 10px;
+         max-width: 90px;
+     }
+
+     .footer-acnav-list.social-icons li a .social-icon-svg svg {
+         height: 14px;
+         width: 14px;
+     }
+     
+     .social-media-icons {
+        margin-top: 0px;
+     }
+     /* Common Banner Sec  */
+     .common-banner-sec {
+         padding: 70px 0px;
+     } 
+
+     /**** Documentation Page Css  ****/
+     .header-doc {
+         padding: 8px 12px;
+         width: 100%;
+     }
+
+     .sidebar-toggle {
+         display: block;
+     }
+
+     .doc-sidebar {
+         position: fixed;
+         top: 0;
+         padding: 8px 0;
+         left: -260px;
+         width: 260px;
+         height: 100%;
+         background: var(--white);
+         box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+         transition: left 0.3s ease;
+         z-index: 1001;
+     }
+
+     .doc-sidebar.active {
+         left: 0;
+     }
+
+     .sidebar-overlay.active {
+         display: block;
+     }
+
+     .doc-container {
+         flex-direction: column;
+     }
+
+     .doc-sidebar .logo-col a {
+         max-width: 90px;
+     }
+
+     .close-sidebar-btn {
+         display: block;
+     }
+
+     .doc-sidebar nav a {
+         font-size: 15px;
+         letter-spacing: 0.5px;
+     }
+     .rooms-wrp {
+        margin-bottom: 15px !important;
+     }
+     /**** Main Banner Section Css ****/
+     .form-fields {
+         flex-direction: column;
+     }
+
+     .booking-form .field {
+         width: 100%;
+     }
+
+     .search-btn {
+         width: 100%;
+         border-radius: 50px;
+     }
+
+     /*** Beach Img Section Css  ***/
+    .beach-img-sec .img-wrapper {
+        padding-top: 70%;
+     }
+     /**** About Hotel Sec Css ****/
+     .about-hotel-container {
+         grid-template-columns: 1fr;
+         text-align: center;
+     }
+
+     .about-hotel-img {
+         padding-top: 55%;
+     } 
+
+    .banner-col-wrp h3 {
+        margin: 10px 0px;
+    }
+
+    .hotel-services .title {
+        font-size: 20px;
+    }
+
+    /**** Facilities Swiper Section  ****/ 
+
+    .facilitiesSwiper .swiper-wrapper>.swiper-slide.small .img-wrapper {
+        margin-top: 0;
+    }
+
+    .facilitiesSwiper .swiper-wrapper>.swiper-slide.small .img-wrapper ,
+    .facilitiesSwiper .swiper-wrapper>.swiper-slide.large .img-wrapper {
+        padding-top: 100%;
+    }
+    /**** Food Menu Section  ****/ 
+    .banner-right-col {
+        padding: 0px;
+    }
+
+    .banner-right-col .section-header, 
+    .banner-right-col .section-header .title {
+        margin-bottom: 15px;
+    }
+    .banner-right-col .section-header,
+    .banner-right-col .section-header .title {
+        text-align: center !important;
+    }
+
+    .food-services>.row {
+        flex-direction: column-reverse;
+        row-gap: 15px;
+    }
+
+    .banner-right-slider {
+        margin-top: 0px;
+    }
+
+    .banner-right-slider { 
+        padding-bottom: 45px;
+    } 
+
+    .food-menu-btn {
+        bottom: 15px;
+        max-width: 75px;
+    }
+
+    .food-services .swiper-button-prev,
+    .food-services .swiper-button-next {
+        height: 28px;
+        width: 28px;
+    }
+    
+    /*** Testimonials Section Css  ***/
+    .testimonial-card {
+        padding: 15px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    .testimonial-image img {
+        height: 60px;
+        width: 60px;
+    } 
+
+    .faq-btn {
+        margin-top: 15px;
+        padding: 10px;
+        font-size: 14px;
+        min-width: 100px;
+    }
+
+    /***** New-Letter Css  *****/
+
+    .newsletter-content {
+        flex-direction: column;
+    }
+
+    .newsletter-sec .newsletter-form {
+        max-width: 100%;
+    }
+
+    .room-info-header {
+        gap: 12px;
+    }
+
+    .rooms-main-slider>.swiper-wrapper .swiper-slide img {
+        height: 300px; 
+    }
+
+    .room-info svg { 
+       width: 18px;
+    }
+    
+    /**** Booking Preview Css ****/ 
+    .booking-details {
+        margin-top: 40px;
+    }
+    .booking-details h3 ,
+    .booking-details .booking-id {
+        text-align: center;
+    } 
+    .confirmation-message { 
+        padding-bottom: 30px;
+    }
+    /**** Activities Section css  ****/
+    .activities-event .event-images {
+    flex: 1 1 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+      "img1 img1"
+      "img2 img3"
+      "img4 img4";
+   }
+   .activities-event .event-images .img-wrapper {
+        padding-top: 40%;
+    }
+    .activities-event .activities-event-wrp {
+        gap: 15px;
+    }
+    /**** ABOUT US PAGE ****/
+    .about-us-images { 
+        max-width: 100%;
+    } 
+
+    /**** Facilities Page CSS  ****/
+    .facility-box {
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    } 
+
+    .facility-dtl {
+        text-align: center;
+        margin: 0 15px;
+    }
+    
+    /**** Restaurant Page CSS  ****/ 
+    .food-menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .restaurant-time {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /*** Live concert sec  ***/
+    .live-concert-sec .concert-images h2 ,
+    .restaurant-menu-sec .sub-heading { 
+        display: none;
+    }
+
+    .live-concert-sec .concert-images ,
+    .live-concert-sec .concert-dtl {
+        max-width: 100%;
+    }
+
+    /**** Blog Page CSS *****/
+    .sidebar-card .img-wrapper {
+        padding-top: 30%;
+    }
+
+    /**** Contact Us Page CSS  ****/ 
+
+    .address-section .address-dtl {
+        max-width: 100%; 
+        margin: 0 auto 15px;
+    }
+
+ }
+
+ @media screen and (max-width: 575px) {
+     :root {
+         --h1: normal 500 30px/1.3 var(--first-font);
+         --h2: normal 500 26px/1.3 var(--first-font);
+         --h3: normal 500 22px/1.3 var(--first-font);
+         --h4: normal 500 18px/1.3 var(--first-font);
+         --common-text: normal 400 14px / 1.3 var(--second-font);
+     }
+
+     .site-header .main-navigationbar .logo-col {
+         max-width: 50px;
+     }
+
+     .site-header .count {
+         top: 4px;
+         height: 10px;
+         width: 10px;
+         font-size: 6px;
+     }
+
+     .mobile-menu-wrapper .mobile-menu-bar>ul>li a {
+         font-size: 16px;
+     }
+
+     .btn-transparent svg {
+         height: 16px;
+         width: 16px;
+     }
+
+     .swiper-button-prev,
+     .swiper-button-next {
+         height: 30px;
+         width: 30px;
+     }
+
+     .swiper-button-prev svg,
+     .swiper-button-next svg {
+         height: 15px;
+         width: 15px;
+     }
+
+     .log-in-page label ,
+     .instant-login span {
+        font-size: 14px;
+     }
+
+     .input-box , .log-in-page .btn {
+        padding: 8px 12px;
+        height: 40px; 
+    }   
+
+    .log-in-page .form-container form {
+        margin-bottom: 20px;
+    }
+
+     /***** mobile-menu-wrapper CSS **** */
+     .mobile-menu-wrapper .mobile-menu-bar>ul {
+         padding: 15px;
+     }
+
+     .mobile-menu-wrapper .menu-close-icon {
+         padding: 10px 15px;
+     }
+
+     .mobile-menu-wrapper .menu-close-icon svg {
+         height: 16px;
+         width: 16px;
+     }
+
+     .site-header .main-navigationbar {
+         padding: 10px 0px;
+     }
+
+     .menu-item-right .btn span {
+         font-size: 12px;
+     }
+
+     .site-header .navigationbar-row {
+         grid-area: 10px;
+     }
+
+     .menu-item-right .btn svg {
+         max-width: 16px;
+     }
+
+     .menu-item-right .btn {
+         padding: 5px 8px;
+     } 
+
+     /* Faqs css  */
+     .faqs-sec .set .acnav-label {
+         font-size: 15px;
+         padding: 10px;
+         gap: 10px;
+     }
+
+     .faqs-sec .set .acnav-label>span {
+         gap: 10px;
+     }
+
+     .faqs-sec .set .acnav-label>span p {
+         font-size: 20px;
+     }
+
+     .faqs-sec .acnav-label .faq-icon {
+         width: 20px;
+         height: 20px;
+     }
+
+     .faqs-sec .acnav-label .faq-icon::before,
+     .faqs-sec .acnav-label .faq-icon::after {
+         height: 1px;
+         width: 10px;
+     }
+
+     .footer-row {
+         padding: 18px 0px
+     }
+
+     .input-box {
+         padding: 12px;
+     }
+
+     .input-box input,
+     .log-in-page .form-container p {
+         font-size: 15px;
+     }
+
+     /**** Main Banner Section Css ****/
+     .banner-btn-wrp .swiper-button-prev {
+         right: 40px;
+     }
+
+     .banner-text p {
+         font-size: 14px;
+     }
+
+     .booking-form {
+         border-radius: 20px;
+         padding: 15px;
+         margin: 0 auto 20px;
+         -webkit-border-radius: 20px;
+         -moz-border-radius: 20px;
+         -ms-border-radius: 20px;
+         -o-border-radius: 20px;
+     }
+
+     .banner-overlay {
+         padding: 40px 15px 70px;
+     }  
+    /* Facilities Section */
+
+     .facilitiesSwiper .swiper-wrapper>.swiper-slide.large .img-wrapper,
+     .facilitiesSwiper .swiper-wrapper>.swiper-slide.small .img-wrapper {
+        padding-top: 70%;
+     }
+
+     .facilitiesSwiper .swiper-wrapper>.swiper-slide.small .img-wrapper {
+        margin-top: 0px;
+     } 
+    
+    /**** Food Menu Section  ****/ 
+     .banner-col-wrp h3 svg {
+        height: 25px;
+        width: 25px;
+     }
+     .banner-col-wrp h3 {
+        font-size: 16px;
+     }
+     .banner-left-slider .banner-slider-img{
+        margin-bottom: 15px;
+     } 
+     .banner-col-wrp {
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid var(--border-color);
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    .banner-slider-img .img-wrapper {
+        padding-top: 60%;
+    }
+    /* Rooms Thumb Slider Css */
+    .rooms-thumbs-slider .swiper-slide {
+        width: 95px !important;
+    }
+    .rooms-main-slider>.swiper-wrapper .swiper-slide img {
+        height: 250px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    .room-info-header span {
+        font-size: 14px;
+    }
+    
+    .public-review ,
+    .preview-faqs-tab {
+        padding: 15px;
+    }
+
+    .public-review .review-card {
+        padding: 0 0 50px 0;
+    }
+
+    .public-review .rooms-btn-wrp {
+        max-width: 60px;
+    }
+
+    .public-review .rooms-btn-wrp .swiper-button-prev { 
+        right: 45px;
+    }
+
+    .public-review .quote-icon {
+        width: 30px; 
+    }
+    
+    .booking-policy-box .policy-section h4 {
+        font-size: 14px;
+        margin: 12px 0 8px;
+    }
+
+    /*** paymeny option css ***/
+    .payment-options {
+        gap: 10px;
+    }
+    .payment-option {
+        padding: 10px;
+    }
+    .select-payment-sec {
+        padding: 0 0 15px;
+    }
+    .rooms-summary { 
+        margin: 20px 0 0;
+    }
+    .summary-card {
+        padding: 15px;
+    }
+    .summary-card .room-img img ,
+    .summary-card {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .room-header { 
+        margin-bottom: 7px; 
+    }
+    /**** Booking Preview Css ****/
+    .booking-preview p {
+        margin-bottom: 15px;
+    }
+    .booking-details {
+        margin-top: 22px;
+    }
+    .booking-preview .info-box {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .booking-actions {
+        margin-top: 18px; 
+        gap: 10px;
+        justify-content: start;
+    }
+    .action-btn {
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    /* Hanging Gallery Css  */
+
+    .photo .rooms-img {
+        height: 280px;
+        width: 280px;
+    }
+
+    .hanging-gallery {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .service-section .facilitiesSwiper .swiper-wrapper>.swiper-slide.large .img-wrapper ,
+    .facilitiesSwiper .swiper-wrapper>.swiper-slide.small .img-wrapper {
+        padding-top: 100% !important;
+    }
+    .service-section .about-dtl {
+        max-width: 100%;
+    }
+    .service-section .about-dtl {
+        margin: 15px auto 0;
+    }
+    .service-menus {
+        gap: 15px; 
+    }
+    .service-item {
+        font-size: 12px;
+    }
+     /**** ABOUT US PAGE ****/
+    .counter-item {
+        width: 120px;
+        height: 120px;
+    }
+
+    .facilities-counter {
+        bottom: 20px;
+    }
+
+    .counter-item p {
+        font-size: 12px;
+    }
+
+    .section-footer h3 {
+        font-size: 14px; 
+    }
+
+    .travel-rooms-wrp {
+        margin-bottom: 115px;
+    }
+
+    /**** Facilities Page CSS  ****/ 
+    .facility-icon {
+        height: 40px;
+        width: 40px; 
+    }
+
+    .facility-icon img {
+        height: 20px;
+        width: 20px;
+    }
+    .facility-dtl {
+        margin: 0;
+    }
+
+    .facility-content p {
+        font-size: 14px;
+    }
+
+    .facility-imgs .img-wrapper {
+        padding-top: 90%;
+    }
+
+    .facilities-sec, .facilities-sec.row-reverse {
+        padding: 20px 15px 0px;
+    }
+
+    .facility-heading {
+        margin-bottom: 10px;
+    }
+
+    /**** Restaurant Page CSS  ****/
+    .about-images { 
+        grid-template-columns: 1fr;
+        margin: 0px;
+    }
+
+    .about-restaurant-img {
+        padding-top: 60% !important;
+    }
+
+    .about-restaurant-img.right {
+        margin-top: 0px;
+    }
+
+    .about-restaurant-img.left, .about-restaurant-img.right {
+        height: auto;
+    }
+
+    .restaurant-dtl-wrp {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    
+    .about-restaurant-img {
+        overflow: hidden;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .restaurant-menu-sec .tabs {
+        justify-content: start;
+    } 
+
+    /*** Live concert sec  ***/
+   .live-concert-sec .concert-images {
+     margin-top: 0px ;
+   } 
+   .live-concert-sec .about-concert-img {
+        padding-top: 60%;
+    }
+
+    /**** Blog Page CSS *****/
+    .blog-meta {
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .blog-text ,
+    .blog-main .img-wrapper {
+        margin-bottom: 10px; 
+    }
+
+    /**** Pagination CSS  ****/  
+    .pagination-number a span {
+        display: none;
+    }
+    
+    /**** Contact Us Page CSS  ****/ 
+    .map-overlay p {
+        font-size: 14px;
+        max-width: 100%; 
+    }
+
+    .map-overlay h3 {
+        font-size: 16px;
+    }
+
+    .map-overlay svg {
+        width: 45px;
+        height: 45px;
+        margin: 0 auto 10px;
+    }
+
+    .map-card ,
+    .contact-info ,
+    .address-right ,
+    .faqs-section .faq-form {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .contact-info ,
+    .address-right ,
+    .faqs-section .faq-form {
+        padding: 15px;
+    }
+
+    .map-section iframe {
+        height: 300px;
+    }
+    /**** Event Css  ****/
+    .event-card {
+        padding-top: 120%;
+    }
+    
+    .event-slider {
+        padding: 0px 10px 0px;
+    }
+
+    .event-dtl span {
+        top: 10px;
+        font-size: 50px;
+    }
+
+    .event-dtl {
+        max-width: 97%; 
+    }
+
+    /**** Celebration Css  ****/
+    .celebration-card{
+        margin: 15px 0px;
+        padding-top: 80%;
+    }
+    .celebrations-slider {
+        margin: 20px 0
+    }
+    .celebration-section p {
+        max-width: 100%;
+    }
+ }
+
+ @media screen and (max-width: 450px) {
+
+     ul.tabs { 
+         padding-bottom: 10px;
+     }
+
+     /* Log in page css  */
+     .google-btn-wrp {
+         flex-wrap: wrap;
+     }
+
+     .filter-cat a {
+        font-size: 13px;
+     }
+
+     .review-tabs {
+        padding: 30px 0;
+     }
+    /**** Activities Section css  ****/ 
+     .event-images {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img3"
+        "img4";
+    } 
+    /**** ABOUT US PAGE ****/
+    .about-us-images { 
+        margin-bottom: 280px;
+    }
+    .about-us-container {
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .about-features .icon {
+        height: 35px;
+        width: 35px;
+        padding: 6px;
+    }
+    .about-img.img1 ,
+    .about-img.img2 {
+        width: 100%;
+    }
+
+    .about-img {
+        padding-top: 70%;
+    }
+
+    .img-badge {
+        padding: 5px;
+        font-size: 12px;
+        right: 15px;
+        top: 15px !important;
+    }
+
+    .about-img.img2 {
+        right: auto;
+        bottom: auto;
+    }
+
+    .about-features li {
+        margin-bottom: 10px;
+    }
+
+    .counter-item {
+        width: 90px;
+        height: 90px;
+    }
+
+    .counter-item h2 {
+        font-size: 16px;
+    }
+
+    .facilities-counter {
+        gap: 10px;
+    }
+
+    .travel-rooms-wrp {
+        margin-bottom: 90px;
+    }
+
+    /**** Facilities Page CSS  ****/ 
+    .facility-imgs { 
+        grid-template-columns: 1fr; 
+    }  
+
+    /**** Restaurant Page CSS  ****/ 
+    .food-item { 
+        gap: 10px; 
+    }
+
+    .food-item img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .food-title {
+        font-size: 13px;
+    }
+
+    .food-price {
+        font-size: 14px;
+    }
+
+    .food-desc {
+        font-size: 12px;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    /**** Blog Page CSS *****/ 
+    .sidebar-card .img-wrapper {
+        flex: 0 0 100%;
+        padding-top: 70%;
+    } 
+
+    .sidebar-card {
+        flex-direction: column;
+    }
+
+    .blog-author li {
+        font-size: 12px;
+    }
+
+    .blog-social-icon li {
+        height: 30px;
+        width: 30px;
+    }
+
+    .sidebar-search button {
+        font-size: 12px;
+    }
+
+    .blog-section .border {
+        margin: 20px 0;
+    }
+    /**** Pagination CSS  ****/
+    .pagination {
+        gap: 10px;
+    }
+
+    .pagination .page-no {
+        height: 30px;
+        width: 30px;
+    } 
+ }
+ 
+@media screen and (max-width: 350px) {
+     .about-us-images {
+        margin-bottom: 220px;
+    }
+}
